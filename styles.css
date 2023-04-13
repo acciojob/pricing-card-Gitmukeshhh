@@ -1,1 +1,60 @@
 /*  your css code here. If applicable */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+.cardinfo,.para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    }
+  .para{
+    width: 200px;
+    
+  }
+  h1{
+     margin-bottom: 20px;
+     width: 100%;
+     font-size: 55px;
+  }
+  button{
+    height: 50px; 
+    font-size: 20px;
+    color: white;
+    background-color: red;
+    width: 150px;
+    margin-top: 10px;
+    border-radius: 20px;
+  }
+  .para{
+    font-size: 20px;
+  }
+  .price{
+    
+  }
+  .card{
+    border: solid 2px black;
+    width: 500px;
+    margin-top: 50px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+
+  }
+
+  body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p{
+    font-size: 25px;
+  }
